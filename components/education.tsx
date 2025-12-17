@@ -87,7 +87,7 @@ export default function Education() {
                   <span
                     key={detailIdx}
                     // FIXED: Correctly calling getEducationColor with the whole educationGroup
-                    className={`text-sm px-3 py-1.5 font-semibold rounded-full ${getEducationColor(educationGroup.degree, educationGroup.details)}`}
+                    className={`text-sm px-3 py-1.5 font-semibold rounded-md ${getEducationColor(educationGroup.degree, educationGroup.details)}`}
                   >
                     {detail}
                   </span>
