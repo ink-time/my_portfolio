@@ -33,7 +33,7 @@ const skillCategories: SkillCategory[] = [
 ]
 
 function getSkillColor(skill: string, category: string): string {
-  if (category === "Soft Skills") {
+  if (category === "Soft Skills" || skill.includes("Eclipse") || skill.includes("VS") || skill.includes("IDEA")) {
     return "bg-pink-200 text-pink-900 dark:bg-pink-200 dark:text-pink-900"
   }
   if (category === "Databases" || skill.includes("Database") || skill.includes("SQL")) {
