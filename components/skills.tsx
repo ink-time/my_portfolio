@@ -34,18 +34,18 @@ const skillCategories: SkillCategory[] = [
 
 function getSkillColor(skill: string, category: string): string {
   if (category === "Soft Skills") {
-    return "bg-pink-200 text-pink-900 dark:bg-pink-900 dark:text-pink-200"
+    return "bg-pink-200 text-pink-900 dark:bg-pink-200 dark:text-pink-900"
   }
   if (category === "Databases" || skill.includes("Database") || skill.includes("SQL")) {
-    return "bg-pink-200 text-pink-900 dark:bg-pink-900 dark:text-pink-200"
+    return "bg-pink-200 text-pink-900 dark:bg-pink-200 dark:text-pink-900"
   }
   if (category === "Game Development") {
-    return "bg-purple-200 text-purple-900 dark:bg-purple-900 dark:text-purple-200"
+    return "bg-purple-200 text-purple-900 dark:bg-purple-200 dark:text-purple-900"
   }
   if (category === "Frontend" || skill.includes("React") || skill.includes("Design")) {
-    return "bg-blue-200 text-blue-900 dark:bg-blue-900 dark:text-blue-200"
+    return "bg-blue-200 text-blue-900 dark:bg-blue-200 dark:text-blue-900"
   }
-  return "bg-purple-200 text-purple-900 dark:bg-purple-900 dark:text-purple-200"
+  return "bg-purple-200 text-purple-900 dark:bg-purple-200 dark:text-purple-900"
 }
 
 export default function Skills() {
