@@ -33,7 +33,7 @@ export default function SoftSkills() {
           {softSkills.map((skill) => (
             <div
               key={skill}
-              className={`px-6 py-3 rounded-full font-semibold text-center hover:border-primary transition-all duration-300 cursor-default ${getSkillColor(skill)}`}
+              className={`px-6 py-3 rounded-full font-semibold text-center hover:border-primary transition-all duration-300`}
             >
               {skill}
             </div>
