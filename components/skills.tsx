@@ -28,12 +28,12 @@ const skillCategories: SkillCategory[] = [
   },
   {
     category: "Tools & Platforms",
-    skills: ["Git", "GitHub", "Linux", "Eclipse", "VS Code", "IntelliJ IDEA"],
+    skills: ["Git", "GitHub", "Linux", "Eclipse", "VS Code", "IntelliJ IDEA", "PostgreSQL", "XAMPP"],
   },
 ]
 
 function getSkillColor(skill: string, category: string): string {
-  if (category === "Soft Skills" || skill.includes("Eclipse") || skill.includes("VS") || skill.includes("IDEA")) {
+  if (category === "Soft Skills" || skill.includes("Eclipse") || skill.includes("VS") || skill.includes("IDEA") || skill.includes("Postgre") || skill.includes("XAMPP")) {
     return "bg-pink-200 text-pink-900 dark:bg-pink-200 dark:text-pink-900"
   }
   if (category === "Databases" || skill.includes("Database") || skill.includes("SQL")) {
