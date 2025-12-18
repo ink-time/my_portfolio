@@ -209,14 +209,14 @@ function getTechColor(tech: string): string {
   }
   // Game Development gets purple
   if (tech.includes("Game")) {
-    return "bg-purple-200 text-purple-900 dark:bg-purple-900 dark:text-purple-900"
+    return "bg-purple-300 text-purple-900 dark:bg-purple-900 dark:text-purple-900"
   }
   // Frontend/React gets blue
   if (tech.includes("React") || tech.includes("CSS")) {
     return "bg-blue-200 text-blue-900 dark:bg-blue-900 dark:text-blue-200"
   }
   // Backend/Java defaults to purple
-  return "bg-purple-200 text-purple-900 dark:bg-purple-900 dark:text-purple-900"
+  return "bg-purple-300 text-purple-900 dark:bg-purple-900 dark:text-purple-900"
 }
 
 export default function Projects() {
