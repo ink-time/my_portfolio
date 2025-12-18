@@ -205,7 +205,7 @@ const illustrationProjects: Project[] = [
 function getTechColor(tech: string): string {
   // Database-related gets pink
   if (tech.includes("MySQL") || tech.includes("Oracle") || tech.includes("Database") || tech.includes("SQL")) {
-    return "bg-pink-200 text-pink-900 dark:bg-pink-900 dark:text-pink-200"
+    return "bg-pink-200 text-pink-900 dark:bg-pink-200 dark:text-pink-900"
   }
   // Game Development gets purple
   if (tech.includes("Game")) {
@@ -213,7 +213,7 @@ function getTechColor(tech: string): string {
   }
   // Frontend/React gets blue
   if (tech.includes("React") || tech.includes("CSS")) {
-    return "bg-blue-200 text-blue-900 dark:bg-blue-900 dark:text-blue-200"
+    return "bg-blue-200 text-blue-900 dark:bg-blue-200 dark:text-blue-900"
   }
   // Backend/Java defaults to purple
   return "bg-purple-200 text-purple-900 dark:bg-purple-200 dark:text-purple-900"
