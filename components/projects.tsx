@@ -212,7 +212,7 @@ function getTechColor(tech: string): string {
     return "bg-purple-200 text-purple-900 dark:bg-purple-200 dark:text-purple-900"
   }
   // Frontend/React gets blue
-  if (tech.includes("React") || tech.includes("CSS")) {
+  if (tech.includes("React") || tech.includes("CSS") || tech.includes("Art")) {
     return "bg-blue-200 text-blue-900 dark:bg-blue-200 dark:text-blue-900"
   }
   // Backend/Java defaults to purple
