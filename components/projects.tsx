@@ -203,19 +203,19 @@ const illustrationProjects: Project[] = [
 ]
 
 function getTechColor(tech: string): string {
-  // Database-related gets pink
-  if (tech.includes("MySQL") || tech.includes("Oracle") || tech.includes("Database") || tech.includes("SQL")) {
+  // Database-related and drawing tools get pink
+  if (tech.includes("MySQL") || tech.includes("Oracle") || tech.includes("Database") || tech.includes("SQL") || tech.includes("Clip Studio")|| tech.includes("Photoshop")) {
     return "bg-pink-200 text-pink-900 dark:bg-pink-200 dark:text-pink-900"
   }
   // Game Development gets purple
   if (tech.includes("Game")) {
     return "bg-purple-200 text-purple-900 dark:bg-purple-200 dark:text-purple-900"
   }
-  // Frontend/React gets blue
+  // Frontend/React and Art words get blue
   if (tech.includes("React") || tech.includes("CSS") || tech.includes("Art")) {
     return "bg-blue-200 text-blue-900 dark:bg-blue-200 dark:text-blue-900"
   }
-  // Backend/Java defaults to purple
+  // Backend/Java and the other art related words default to purple
   return "bg-purple-200 text-purple-900 dark:bg-purple-200 dark:text-purple-900"
 }
 
