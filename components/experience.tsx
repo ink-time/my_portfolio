@@ -33,12 +33,12 @@ const experienceData: ExperienceItem[] = [
 
 function getExperienceColor(tag: string): string {
     if (tag.includes("Wordpress") || tag.includes("Design")) {
-        return "bg-pink-200 text-pink-900 dark:bg-pink-900 dark:text-pink-200"
+        return "bg-pink-200 text-pink-900 dark:bg-pink-200 dark:text-pink-900"
     }
     if (tag.includes("Maintenance") || tag.includes("Migration")) {
-        return "bg-blue-200 text-blue-900 dark:bg-blue-900 dark:text-blue-200"
+        return "bg-blue-200 text-blue-900 dark:bg-blue-200 dark:text-blue-900"
     }
-    return "bg-purple-200 text-purple-900 dark:bg-purple-900 dark:text-purple-200"
+    return "bg-purple-200 text-purple-900 dark:bg-purple-200 dark:text-purple-900"
 }
 
 export default function Experience() {
