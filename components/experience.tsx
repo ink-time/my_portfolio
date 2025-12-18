@@ -57,7 +57,7 @@ export default function Experience() {
                 {job.title}
               </h3>
               
-              <div className="text-sm text-gray-500 dark:text-gray-600 mb-4">
+              <div className="text-sm text-gray-500 dark:text-gray-500 mb-4">
                 <p className="font-semibold">{job.company}</p>
                 <p>{job.period}</p>
               </div>
