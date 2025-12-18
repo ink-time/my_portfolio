@@ -16,11 +16,11 @@ export default function SoftSkills() {
     const problemSkills = ["Problem Solving"]
 
     if (mindsetSkills.includes(skill)) {
-      return "bg-purple-200 dark:bg-purple-200/40 text-purple-900 dark:text-purple-900"
+      return "bg-purple-200 dark:bg-purple-200 text-purple-900 dark:text-purple-900"
     } else if (detailSkills.includes(skill)) {
-      return "bg-blue-200 dark:bg-blue-200/40 text-blue-900 dark:text-blue-900"
+      return "bg-blue-200 dark:bg-blue-200 text-blue-900 dark:text-blue-900"
     } else if (problemSkills.includes(skill)) {
-      return "bg-pink-200 dark:bg-pink-200/40 text-pink-900 dark:text-pink-900"
+      return "bg-pink-200 dark:bg-pink-200 text-pink-900 dark:text-pink-900"
     }
     return "bg-primary/20 dark:bg-primary/30 text-foreground"
   }
