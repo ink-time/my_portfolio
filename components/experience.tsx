@@ -57,12 +57,12 @@ export default function Experience() {
                 {job.title}
               </h3>
               
-              <div className="text-sm text-gray-500 dark:text-gray-400 mb-4">
+              <div className="text-sm text-gray-500 dark:text-gray-600 mb-4">
                 <p className="font-semibold">{job.company}</p>
                 <p>{job.period}</p>
               </div>
 
-              <ul className="list-disc list-inside text-gray-700 dark:text-gray-300 text-base mb-4 space-y-1">
+              <ul className="list-disc list-inside text-gray-700 dark:text-gray-400 text-base mb-4 space-y-1">
                 {job.details.map((detail, detailIdx) => (
                   <li key={detailIdx} className="text-sm">{detail}</li>
                 ))}
